@@ -1,3 +1,4 @@
+# average case
 nums = [5,8,1,6,9,2,4]
 n = len(nums)
 for i in range(n-2,-1,-1):
@@ -19,7 +20,8 @@ for i in range(n-2,-1,-1):
           is_swap = True
        
 #  time complexity = o(n)
-# Sc = o(1)           
+# Sc = o(1)          
+ 
        
          
     
