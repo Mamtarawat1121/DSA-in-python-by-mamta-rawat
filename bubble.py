@@ -5,3 +5,5 @@ for i in range(n-2,-1,-1):
         if nums[j]>nums[j+1]:
             nums[j],nums[j+1] = nums[j+1],nums[j]
     
+    # time complexity = o(n(n+1))/2
+    
