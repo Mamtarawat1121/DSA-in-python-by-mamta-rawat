@@ -9,3 +9,5 @@ def check_sorted(nums):
 print(check_sorted(nums))
     
     
+    
+    
