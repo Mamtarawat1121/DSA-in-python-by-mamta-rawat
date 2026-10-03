@@ -18,8 +18,8 @@ for i in range(n-2,-1,-1):
           nums[j],nums[j+1] = nums[j+1],nums[j]
           is_swap = True
        
- 
-           
+#  time complexity = o(n)
+# Sc = o(1)           
        
          
     
