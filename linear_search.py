@@ -3,5 +3,5 @@ target = 4
 n = len(nums)
 for i in range(0,n):
      if nums[i] == target:
-        print( i)
+        print(i)
            
