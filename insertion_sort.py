@@ -7,5 +7,10 @@ def insertion_sort(nums):
         while j >=0 and nums[j]>key:
             nums[j+1] = nums[j]
             j -=1
-    nums[j+1] = key
+        nums[j+1] = key
+    return nums    
 print(insertion_sort(nums))        
+
+
+# tc = o(n^2)
+# sc = o(1)
