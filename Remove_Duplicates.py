@@ -34,6 +34,8 @@ def Remove_duplicates():
  return i + 1        
 print(Remove_duplicates()) 
 
+# tc = o(N)
+# sc = o(1)
 
 
 
