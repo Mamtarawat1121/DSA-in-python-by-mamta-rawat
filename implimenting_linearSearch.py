@@ -14,3 +14,7 @@ target = 6
 
 print("Original list:", nums)
 print("linear_search(nums, target):", linear_search(nums, target))
+
+
+# tc = o(n)
+# sc = o(1)
