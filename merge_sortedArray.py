@@ -31,3 +31,8 @@ def merge(nums1, nums2):
 nums1 = [1,2,4,6,7,8,9]
 nums2 = [1,2,3,4,5,6,7,8,9]
 print(merge(nums1, nums2))
+
+
+
+# tc = o(n+m)
+# sc = o(1)
