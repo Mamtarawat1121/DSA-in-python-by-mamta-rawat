@@ -34,8 +34,11 @@ print(result)
         
         # optimal solution
 nums = [9,7,8,5,6,3,1,2]
-n = len(nums)
+
+n = len(nums) + 1
+
 result = n*(n+1)//2 - sum(nums)
+
 print(result)
 
 # tc o(n)
