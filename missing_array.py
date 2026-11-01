@@ -41,5 +41,13 @@ result = n*(n+1)//2 - sum(nums)
 
 print(result)
 
+
 # tc o(n)
 # sc = o(1)
+
+
+
+
+
+
+
