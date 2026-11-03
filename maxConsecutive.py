@@ -21,3 +21,6 @@ print(maxConsecutive(nums))
 
 # tc = o(n)
 # sc = o(1)
+
+
+
