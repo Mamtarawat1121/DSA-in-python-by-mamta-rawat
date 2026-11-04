@@ -10,3 +10,33 @@ print(result)
 
 # tc = o(n*n)
 # sc = o(1)
+
+
+# optimal solution
+
+
+nums = [7,9,0,8,2,15,4]
+n = len(nums)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
