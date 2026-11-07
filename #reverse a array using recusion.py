@@ -33,8 +33,13 @@ num =[5,7,8,6,3,9,8,5,2,7,4,1,5,7]
 print(revNum(num, left=2, right=len(num)-2))
 
 
-#TC(O)=(0)N/2==(O)N
-#SC(O)=(O)N/2==(O)N
+
+
+
+
+
+#TC(O)=(0)N/2=(O)N
+#SC(O)=(O)N/2=(O)N
 
 
 
