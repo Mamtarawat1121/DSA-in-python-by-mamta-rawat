@@ -13,14 +13,6 @@ def func():
     func()       
 func()
 
-
-
-
-
-
-
-
-
 #tail recursion
 
 count=0
