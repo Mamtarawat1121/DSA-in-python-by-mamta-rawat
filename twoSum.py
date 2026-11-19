@@ -15,9 +15,27 @@ print(result)
 # optimal solution
 
 
-nums = [7,9,0,8,2,15,4]
+nums = [7, 9, 0, 8, 2, 15, 4]
 n = len(nums)
+target = 13
 
+hash_map = {}
+
+def two_sum(nums, target):
+    for i in range(len(nums)):
+        remaining = target - nums[i]
+
+        if remaining in hash_map:
+            return [hash_map[remaining], i]
+
+        else:
+            hash_map[nums[i]] = i
+
+    return []
+
+print(two_sum(nums, target))
+        #tc = o(n)
+        #sc = o(n) 
 
 
 
