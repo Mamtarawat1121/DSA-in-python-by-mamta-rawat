@@ -26,9 +26,6 @@
 # a= int(input("Enter the number: "))
 # func(a)
 
-
-
-
 def func(sum,i,n):
     if i>n:
         print(sum)
