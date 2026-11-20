@@ -27,6 +27,8 @@
 # func(a)
 
 
+
+
 def func(sum,i,n):
     if i>n:
         print(sum)
