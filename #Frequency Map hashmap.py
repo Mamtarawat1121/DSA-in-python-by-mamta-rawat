@@ -7,4 +7,5 @@ for i in range(n):
 hash_map = {}
 for i in range(0,n):
     hash_map[list[i]] = hash_map.get(list[i], 0) + 1
+    
 print("Frequency Map: ", hash_map)
