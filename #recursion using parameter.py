@@ -5,8 +5,6 @@
 #     print(m)
 #     func(n-1,m)
 # func(5, 100)    
-
-
 # def func(i,n):
 #     if i>n:
 #         return
@@ -16,9 +14,6 @@
 # a= int(input("Enter the starting number: "))
 # b= int(input("Enter the ending number: "))
 # func(a,b)
-
-
-
 # 
 
 # def func(n):
@@ -30,7 +25,6 @@
 
 # a= int(input("Enter the number: "))
 # func(a)
-
 
 def func(sum,i,n):
     if i>n:
