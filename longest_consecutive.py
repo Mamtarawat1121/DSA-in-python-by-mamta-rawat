@@ -20,17 +20,20 @@ print(max_count)
 # better solution
 nums = [100,4,200,1,3,2,5,101,106,107,108,109,110,1]
 n = len(nums)
-last_smaller = {}
+nums.sort()
 count = 0
-for num in nums:
-    last_smaller[num] = num-1
-    count = 1
-    while last_smaller[num] in last_smaller:
-        count += 1
-        num = last_smaller[num]
-    max_count = max(max_count, count)
-
-print(max_count)
+last_smaller = ("-inf")
+longest = 0
+for num in range(0,n):
+    num = nums[i]
+    if num-1 == last_smaller:
+        count+=1
+        last_smaller = num
+    elif num != last_smaller:
+        count = 1
+        last_smaller = num
+    longest = max(longest, count)       
+print(longest)    
 
 # tc = o(n)
 # sc = o(n)     
