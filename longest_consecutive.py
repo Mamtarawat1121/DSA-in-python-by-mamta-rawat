@@ -36,9 +36,25 @@ for num in range(0,n):
 print(longest)    
 
 # tc = o(n)
-# sc = o(n)     
+# sc = o(1)     
 
 
 # optimal solution
+
 nums = [100,4,200,1,3,2,5,101,106,107,108,109,110,1]
-num_set = set(nums)
+my_set = set()
+for i in range(0,n):
+    my_set.add(nums[i])
+longest = 0
+for num in my_set:
+    if num - 1 not in my_set:
+        x = num
+        count = 1
+        while x + 1 in my_set:
+            x += 1
+            count += 1
+        longest = max(longest, count)
+print(longest)
+
+# tc = o(n)
+# sc = o(n)
