@@ -32,9 +32,6 @@ def func(sum,i,n):
         return
     func(sum+i,i+1,n)
 func(0,1,4)       
-
-
-
 # def func(n):
 #     if n==1:
 #         return 1
