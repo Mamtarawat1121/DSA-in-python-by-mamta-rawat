@@ -63,7 +63,7 @@ diag = [nums[i][i] for i in range(rows)]
 print("Diagonal:", diag)         
 print("Sum:", sum(diag))
 
-          
+           
 print("Anti-diagonal matrix:")
 
 
