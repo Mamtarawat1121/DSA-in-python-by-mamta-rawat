@@ -15,13 +15,11 @@
 # b= int(input("Enter the ending number: "))
 # func(a,b)
 # 
-
 # def func(n):
 #     if n==0:
 #         return
 #     func(n-1)
 #     print(n)
-    
 
 # a= int(input("Enter the number: "))
 # func(a)
@@ -32,9 +30,6 @@ def func(sum,i,n):
         return
     func(sum+i,i+1,n)
 func(0,1,4)       
-
-
-
 # def func(n):
 #     if n==1:
 #         return 1
